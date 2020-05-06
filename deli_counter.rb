@@ -24,7 +24,7 @@ end
 # Method to display the next person in line and remove them from the front.
 def now_serving(array)
   if array.length == 0 
-    puts "There is nobody waiting to be served."
+    puts "There is nobody waiting to be served!"
   else
     puts "Currently serving: #{array[0]}."
     array.shift
