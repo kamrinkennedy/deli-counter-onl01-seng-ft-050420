@@ -21,5 +21,6 @@ def line(array)
   puts "The line is currently:"
   array.each_with_index do |customer, index|
     puts "#{index + 1}. #{customer}"
+    end
   end
 end
