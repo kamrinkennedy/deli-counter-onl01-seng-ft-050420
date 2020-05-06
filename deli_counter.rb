@@ -8,4 +8,5 @@ def line(array)
   else
     puts "The line is currently: " + array.each_with_index |person, index|
     "#{index + 1}. #{name} "
+  end
 end
