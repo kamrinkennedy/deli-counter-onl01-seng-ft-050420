@@ -22,5 +22,4 @@ def line(array)
   array.each_with_index do |customer, index|
     puts "#{index + 1}. #{customer}"
   end
-  end
 end
